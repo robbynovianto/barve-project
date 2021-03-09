@@ -24,17 +24,17 @@
 {{-- Awal Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Barve Corp</a>
+          <a class="navbar-brand" href="{{url ('/')}}">Barve Corp</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-              <a class="nav-link" href="#">Tentang</a>
-              <a class="nav-link" href="#">Jadwal Harian</a>
-              <a class="nav-link" href="#">Pesan Ruangan</a>
-              <a class="nav-link" href="#">Masuk</i></a>
+              <a class="nav-link active" aria-current="page" href="{{url ('/')}}">Beranda</a>
+              <a class="nav-link" href="{{url ('/about')}}">Tentang</a>
+              <a class="nav-link" href="{{url ('/jadwal')}}">Jadwal Harian</a>
+              <a class="nav-link" href="{{url ('/pesan')}}">Pesan Ruangan</a>
+              <a class="nav-link" href="{{url ('/login')}}">Masuk</i></a>
 
               {{-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> --}}
             </div>

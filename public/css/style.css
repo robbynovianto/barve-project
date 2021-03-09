@@ -26,6 +26,10 @@
     color: white;
 }
 
+.jumbotron p{
+    color: white;
+}
+
 .jumbotron .container{
     z-index: 1;
     position: relative;
