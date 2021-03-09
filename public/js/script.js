@@ -1,9 +1,12 @@
-var height = $('#header').height();
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 10) {
+	    $("#header").css("background" , "black");
+	  }
 
-$(window).scroll(function(){
-    if($(this).scrollTop() > height){
-        $('.navbar').addClass('fixed');
-    }else{
-        $('.navbar').addClass('fixed');
-    }
-});
+	  else{
+		  $("#header").css("background" , "transparent");
+	  }
+  })
+})
