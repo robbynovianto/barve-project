@@ -1,4 +1,10 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* Navbar */
 .container .navbar-brand {
     font-family: Viga;
@@ -11,7 +17,7 @@
 
 /* Jumbotron */
 .jumbotron{
-    background-image: url("room.jpg");
+    background-image: url("room-min.jpg");
     background-size: cover;
     height: 700px;
     text-align: center;
@@ -82,7 +88,7 @@
         font-size: 14px;
         font-weight: bold;
         margin-right: 18px;
-        transition: all .5s linear;
+        transition: 0.5s;
     }
 
     .nav-link:hover{
@@ -93,6 +99,34 @@
         margin-bottom: -8px;
     }
 
+    /* .container ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container ul li{
+        position: relative;
+        list-style: none;
+    }
+
+    .container ul li a{
+        position: relative;
+        margin: 0 15 px;
+        text-decoration: none;
+        color: #fff;
+        letter-spacing:2px ;
+        font-weight: 500px;
+        transition: 0.6s;
+    } */
+
+    .fixed{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 20;
+    }
     .jumbotron{
         height: 770px;
         margin-top: -75px;
