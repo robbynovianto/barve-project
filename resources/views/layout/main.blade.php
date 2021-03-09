@@ -7,7 +7,9 @@
 
     {{-- My Font! --}}
 
-    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+        </style>
 
     {{-- My CSS --}}
 
@@ -19,7 +21,8 @@
     <title>@yield('title')</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+{{-- Awal Navbar --}}
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">Barve</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,12 +34,18 @@
               <a class="nav-link" href="#">Tentang</a>
               <a class="nav-link" href="#">Jadwal Harian</a>
               <a class="nav-link" href="#">Pesan Ruangan</a>
-              <a class="nav-link btn btn-primary" href="#">Masuk</a>
+              <a class="nav-link" href="#">Masuk</i></a>
+
               {{-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> --}}
             </div>
           </div>
         </div>
       </nav>
+{{-- Akhir Navbar --}}
+
+{{-- Jumbotron --}}
+
+{{-- Akhir Jumbotron --}}
     @yield('container')
     <!-- Optional JavaScript; choose one of the two! -->
 
