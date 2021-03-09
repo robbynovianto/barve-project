@@ -50,6 +50,24 @@
     bottom: 0;
 }
 
+/* Featured Service */
+#featured-service{
+    background: black;
+    color: white;
+}
+#featured-service .box{
+    padding:30px 20px;
+}
+
+#featured-service .box-bg {
+    padding: 30px 20px;
+    background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+}
+
+.bi{
+    font-size: 43px;
+}
+
 /* Utilitiy */
 
 /* Desktop Version */
