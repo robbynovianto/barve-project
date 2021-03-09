@@ -24,7 +24,7 @@
 {{-- Awal Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Barve</a>
+          <a class="navbar-brand" href="#">Barve Corp</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,7 +44,12 @@
 {{-- Akhir Navbar --}}
 
 {{-- Jumbotron --}}
-
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"></h1>
+      <p class="lead"></p>
+    </div>
+  </div>
 {{-- Akhir Jumbotron --}}
     @yield('container')
     <!-- Optional JavaScript; choose one of the two! -->
