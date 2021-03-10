@@ -7,7 +7,7 @@
 
     {{-- My Font! --}}
 
-    <style>
+        <style>
         @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
         </style>
