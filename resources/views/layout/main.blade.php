@@ -17,6 +17,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 
     <script>
@@ -57,9 +59,9 @@
                             <a class="nav-link " href="{{url ('/login')}}">Masuk</a>
                          </li>
                     </ul>
-                    <li>
+                    {{-- <li>
                         <i class="bi bi-list mobile-nav-toggle"></i>
-                    </li>
+                    </li> --}}
                 </nav>
             </div>
         </div>
@@ -120,7 +122,30 @@
         </div>
     </div>
 </section>
+<section id="about">
+    <div class="container" data-aos="fade-up">
+        <header class="section-header">
+            <h3>Tentang BARVE</h3>
+            <p>
+                BARVE merupakan aplikasi yang memudahkan Unit Kerja mendapatkan informasi ketersediaan ruang rapat di
+                lingkungan Sekretariat Jendral MPR RI secara Real Time
+                <br>
+                <small><b>Dikelola oleh Tim Kerja Bagian Pengelolaan BMN dan Akomodasi, Biro Umum</b></small>
+            </p>
+        </header>
+    </div>
+</section>
 {{-- Akhir Featured Service --}}
+        <footer id="footer">
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong>Barve</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="#">BOBS</a>
+                </div>
+            </div>
+        </footer>
     @yield('container')
     <!-- Optional JavaScript; choose one of the two! -->
     <
