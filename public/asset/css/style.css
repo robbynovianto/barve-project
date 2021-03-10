@@ -1,5 +1,5 @@
 body{
-    background-image: url("bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin:0;
@@ -28,7 +28,7 @@ body{
 
 /* Jumbotron */
 .jumbotron{
-    background-image: url("room-min.jpg");
+    background-image: url("../img/room-min.jpg");
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -103,6 +103,7 @@ section {
 #featured-service{
     background: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 #featured-service .box{
     padding:30px 20px;
@@ -122,13 +123,17 @@ section {
     font-size: 30px;
 }
 
+#about{
+    background: red;
+    padding-top: 20px;
+    height: 230px;
+    margin-bottom: -20px;
+    background: rgba(255, 255, 255, 0.394);
+}
 #about .container {
     position: relative;
     z-index: 10;
     text-align: center;
-    padding-top: 10px ;
-    padding-bottom: 20px;
-    background: rgba(255, 255, 255, 0.394);
 }
 
 .section-header h3::after {
