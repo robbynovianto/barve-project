@@ -56,6 +56,10 @@
                         <li>
                             <a class="nav-link " href="{{url ('/login')}}">Masuk</a>
                          </li>
+                    </ul>
+                    <li>
+                        <i class="bi bi-list mobile-nav-toggle"></i>
+                    </li>
                 </nav>
             </div>
         </div>
