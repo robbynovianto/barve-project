@@ -6,11 +6,20 @@ body{
     padding:0;
     height:1000px;
 }
+/* Loader */
+
+.laoder_bg{
+    background: white;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+}
 /* Navbar */
 .container .navbar-brand {
     font-family: Viga;
-    font-size: 32px;
-    color: white;
+    font-size: 34px;
+    text-decoration: none;
 }
 
 .navbar-mobile ul {
@@ -243,7 +252,7 @@ section {
     }
 
     .navbar a:hover, .navbar .active, .navbar li:hover > a {
-        color: #18d26e;
+        color: green;
     }
 
     .navbar a {
