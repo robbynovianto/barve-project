@@ -37,17 +37,20 @@
   </head>
   <body>
 {{-- Awal Navbar --}}
+<div class="mobile-container">
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 d-flex align-items-center justify-content-between">
                 <h1 class="navbar-brand">
                     <a id="logo" style="text-decoration:none" href="{{url ('/')}}">Barve Corp</a>
-                </h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </h1>
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li>
-                            <a class="nav-link active" href="{{url ('#')}}">Beranda</a>
+                            <a class="nav-link active" href="{{url ('/')}}">Beranda</a>
                         </li>
                         <li>
                             <a class="nav-link " href="{{url ('/about')}}">Tentang</a>
@@ -69,6 +72,7 @@
             </div>
         </div>
     </div>
+</div>
 </header>
 
 <script>
