@@ -19,7 +19,11 @@ body{
 .container .navbar-brand {
     font-family: Viga;
     font-size: 34px;
-    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    color: white;
 }
 
 .navbar-mobile ul {
@@ -126,6 +130,10 @@ section {
 #featured-service .col-lg-4{
     padding-top: 30px;
     margin-bottom: 20px;
+}
+
+#featured-service .title{
+    margin-top: 20px;
 }
 
 .bi{

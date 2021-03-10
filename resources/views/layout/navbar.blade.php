@@ -42,12 +42,12 @@
         <div class="row">
             <div class="col-12 d-flex align-items-center justify-content-between">
                 <h1 class="navbar-brand">
-                    <a style="text-decoration:none" href="{{url ('/')}}">Barve Corp</a>
+                    <a id="logo" style="text-decoration:none" href="{{url ('/')}}">Barve Corp</a>
                 </h1>
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li>
-                            <a class="nav-link active" href="{{url ('/')}}">Beranda</a>
+                            <a class="nav-link active" href="{{url ('#')}}">Beranda</a>
                         </li>
                         <li>
                             <a class="nav-link " href="{{url ('/about')}}">Tentang</a>
